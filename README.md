@@ -1,4 +1,5 @@
 # # Healthcare Revenue Leakage Analysis using POWERBI
+"Utilized Power BI Desktop to engineer a financial audit dashboard. Implemented DAX measures to identify $8.8M in revenue leakage and utilized Power Query for data normalization, resulting in a 100% accurate audit of billing anomalies across 55k+ records."
 
 ## 📌 Project Overview
 This project focuses on identifying and analyzing **Revenue Leakage** within a hospital's billing system. By analyzing a dataset of 55,000+ patient records, I identified specific billing anomalies where high-cost treatments (>$45,000) were associated with ultra-short hospital stays (≤1 day).
