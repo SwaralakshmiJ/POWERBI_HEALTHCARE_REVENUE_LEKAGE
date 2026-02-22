@@ -6,11 +6,12 @@ This project focuses on identifying and analyzing **Revenue Leakage** within a h
 
 **Key Finding:** Identified **$8.8 Million** in potential revenue leakage due to billing inconsistencies.
 
-## 🛠️ Tech Stack
-* **Data Tool:** Power BI Desktop
-* **Data Source:** Cleaned Healthcare Dataset (`healthcare_cleaned`)
-* **Language:** DAX (Data Analysis Expressions) for complex calculations
-* **Architecture:** Star Schema (transformed into a high-performance Flat Table)
+## 🛠️ Tools & Technologies
+### **Primary Tool: Microsoft Power BI 📊**
+I utilized the full Power BI analytical stack to transform raw healthcare data into actionable financial insights:
+* **Power Query:** Used for Data Extraction, Transformation, and Loading (ETL). Cleaned and normalized 55k+ records.
+* **DAX (Data Analysis Expressions):** Engineered custom measures to calculate complex KPIs like Length of Stay (LOS) and Leakage.
+* **Data Modeling:** Implemented a high-performance flat-table architecture to ensure 100% calculation accuracy.
 
 ## 📊 Data Model & Logic
 The analysis is built on a consolidated healthcare table containing patient demographics, admission details, and financial data.
